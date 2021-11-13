@@ -32,7 +32,7 @@ else{console.log("Blame your parents!")}
 //Silver
 
 if(1==="1"){console.log("strict")}
-else if(1=="1"){console.log("loose")}
+else if(1=="1"){console.log("abstract")}
 else {console.log("not equal at all")}
 
 if(1<=2 && 2===4){console.log("yes")}
@@ -40,14 +40,14 @@ else{console.log("hooked on phonics morked for wee!")}
 
 //Gold Medal
 
-if(typeof "dog" === "string"){console.log("Easy")}
-if(typeof true === "boolean"){console.log("Easy")}
-else{console.log("Hard")}
+if(typeof "dog" === "string"){console.log("Is a string")}
+if(typeof true === "boolean"){console.log("Is a boolean")}
+else{console.log("Not a bolean... because it's pronounced Boo Lee Un!")}
 var dog
-if(typeof dog === "undefined"){console.log("Easy")}
-else{console.log("Hard")}
-if("s">12){console.log("Easy")}
-else{console.log("Hard")}
+if(typeof dog != "undefined"){console.log("Variable is defined")}
+else{console.log("Variable is not defined")}
+if("s">12){console.log("S is greater than 12")}
+else{console.log("S is not greater than 12")}
 var myNum = 10
 console.log(myNum % 2 === 0 ? "Even" : "Odd" )
 
